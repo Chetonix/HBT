@@ -7,8 +7,9 @@
 body {
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
+    /* height: 100vh;
+    width: 100vw; */
     height: 100vh;
-    width: 100vw;
 }
 
 .container {
@@ -179,7 +180,7 @@ nav ul li a {
 }
 
 #features .box {
-    width: 33%;
+    width: 33.33%;
     min-height: 100%;
     display: flex;
     flex-direction: column;
