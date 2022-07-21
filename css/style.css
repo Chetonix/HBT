@@ -223,4 +223,14 @@ nav ul li a {
     #features .box {
         width: 100%;
     }
+    #home-info {
+        flex-direction: column;
+    }
+    #home-info .left-image{
+        width: 100%;
+    }
+    #home-info .right-content {
+        width: 100%;
+    }
+
   }
