@@ -101,6 +101,9 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     gap: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
 }
 
 .text-primary {
@@ -210,3 +213,14 @@ nav ul li a {
     padding: 30px 10px;
     color: white;
 }
+
+/* Media Querries */
+
+@media only screen and (max-width: 751px) {
+    #features {
+        flex-direction: column;
+    }
+    #features .box {
+        width: 100%;
+    }
+  }
