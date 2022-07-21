@@ -39,7 +39,7 @@ nav ul ul.links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    gap: 30px;
+    gap: 40px;
 
 }
 
@@ -48,4 +48,16 @@ nav ul ul.links {
     color: white;
     font-size: 1.7em;
     font-weight: 600;
+}
+
+.links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-weight: 200;
+}
+
+.links li a:hover, .links li a.current {
+    color: #f7c08a;
+    background-color: #444;
 }
