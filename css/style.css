@@ -219,12 +219,14 @@ nav ul li a {
 @media only screen and (max-width: 751px) {
     #features {
         flex-direction: column;
+        height: auto;
     }
     #features .box {
         width: 100%;
     }
     #home-info {
         flex-direction: column;
+        height: auto;
     }
     #home-info .left-image{
         width: 100%;
