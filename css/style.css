@@ -7,6 +7,8 @@
 body {
     font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
+    height: 100vh;
+    width: 100vw;
 }
 
 .container {
@@ -71,4 +73,50 @@ nav ul li a {
 .links li a:hover, .links li a.current {
     color: #f7c08a;
     background-color: #444;
+}
+
+#showcase {
+    background-image: url(../img/showcase.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 85%;
+}
+
+#showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+#showcase h1 {
+    font-size: 60px;
+    color: white;
+    line-height: 1.2em;
+}
+
+#showcase p {
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.7em;
+
+}
+#showcase button {
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+#showcase button:hover {
+    background-color: #f7c08a;
+    color: #333;
 }
