@@ -236,9 +236,13 @@ nav ul li a {
         width: 100%;
         height: 400px;
     }
+    .navbar {
+        padding: 0 10px;
+    }
 }
     @media only screen and (max-width: 471px) {
         .navbar {
             overflow-x: hidden;
         }
   }
+
