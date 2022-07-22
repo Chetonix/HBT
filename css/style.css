@@ -296,6 +296,25 @@ nav ul li a {
 #contact h1 {
     font-size: 2.3em;
 }
+form {
+    width: 100%;
+}
+
+form .form-group {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form .form-group input {
+    width: 100%;
+}
+
+form .form-group input:focus {
+    outline: none;
+    border-color: #f7c08a;
+    border-radius: 3px;
+}
 
 
 /* Media Querries */
