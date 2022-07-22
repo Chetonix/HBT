@@ -122,6 +122,9 @@ nav ul li a {
     line-height: 1.7em;
 
 }
+
+
+
 #showcase button, .btn {
   font-size: 18px;
   color: #fff;
@@ -134,6 +137,16 @@ nav ul li a {
 #showcase button:hover, .btn:hover {
     background-color: #f7c08a;
     color: #333;
+}
+
+#showcase a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#showcase a:hover {
+    color: #333;
+    text-decoration: none;
 }
 
 #home-info {
