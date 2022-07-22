@@ -325,6 +325,26 @@ form .form-group textarea {
     height: 200px;
 }
 
+form button {
+    margin-top: 20px;
+    width: 100px;
+}
+
+/* Contact Info in Contact Page */
+
+#contact-info {
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    color: white;
+    padding: 30px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact-info .box {
+    width: 33.33%;
+}
 
 /* Media Querries */
 
