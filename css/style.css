@@ -282,6 +282,22 @@ nav ul li a {
     border-radius: 50%;
 }
 
+/* Contact Page */
+#contact {
+    padding: 35px 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#contact h1 {
+    font-size: 2.3em;
+}
+
+
 /* Media Querries */
 
 @media only screen and (max-width: 823px) {
