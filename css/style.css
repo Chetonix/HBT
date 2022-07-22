@@ -30,7 +30,7 @@ body {
 
 .navbar {
     /* background-color: #333; */
-    padding: 0 82px;
+    padding: 0 4%;
 }
 
 nav {
@@ -221,7 +221,7 @@ nav ul li a {
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    padding: 35px 100px;
+    padding: 35px 5%;
     font-size: 1.2em;
     gap: 25px;
 }
@@ -285,7 +285,7 @@ nav ul li a {
 
 /* Contact Page */
 #contact {
-    padding: 35px 100px;
+    padding: 35px 5%;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -395,6 +395,11 @@ form button {
     }
     .navbar {
         padding: 0 10px;
+    }
+
+    #contact-info {
+        flex-direction: column;
+        gap: 40px;
     }
 }
 
