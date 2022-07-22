@@ -284,6 +284,21 @@ nav ul li a {
 
 /* Media Querries */
 
+@media only screen and (max-width: 823px) {
+    .container.about {
+        flex-direction: column;
+    }
+
+    .about .left-content{
+        width: 100%;
+    }
+    .about .right-image {
+        width: 100%;
+    }
+
+}
+
+
 @media only screen and (max-width: 751px) {
     #features {
         flex-direction: column;
@@ -308,6 +323,13 @@ nav ul li a {
         padding: 0 10px;
     }
 }
+
+@media only screen and (max-width: 513px) {
+    .about .left-content h1 {
+        font-size: 1.6em;
+    }
+}
+
     @media only screen and (max-width: 471px) {
         .navbar {
             overflow-x: hidden;
